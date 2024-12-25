@@ -1,76 +1,35 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `A final-year student and aspiring web developer, passionate about creating user-friendly interfaces and
+progressing toward full-stack development.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Currently in my final year of Bachelor of Technology in Computer Science and Engineering at Lovely Professional University, I am Aditya Raj, an aspiring and dedicated web developer with a focus on full-stack development. My academic journey is complemented by hands-on experience in building dynamic web applications, leveraging modern technologies like the MERN stack. I have a strong foundation in frontend development using ReactJS, TailwindCSS, and Redux-toolkit, coupled with backend expertise in Node.js, Express, and MongoDB.
 
-export const EXPERIENCES = [
-  {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
-];
+Driven by a passion for innovation and problem-solving, I have successfully developed and deployed projects like a full-stack Real Estate Marketplace and a Netflix Clone. These projects allowed me to implement advanced features such as user authentication, real-time CRUD operations, and responsive interfaces, showcasing my ability to create seamless user experiences.
+
+Beyond academics, I am committed to continuous learning, holding multiple certifications in React and Node.js to refine my skills further. My participation in workshops and bootcamps has deepened my understanding of data structures, algorithms, and web technologies. As an aspiring professional, I am eager to apply my knowledge and creativity to real-world challenges, contributing to impactful and innovative projects in the tech industry.`;
+
 
 export const PROJECTS = [
-  {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
-];
+    {
+        title: "Real Estate Marketplace",
+        image: project1,
+        description:
+        "A full-stack real estate marketplace using the MERN stack. Features include user authentication (JWT, Firebase, Google OAuth), real-time CRUD operations, property listing management, image uploads, and a responsive interface for an enhanced user experience.",
+        technologies: ["ReactJs", "TailwindCSS", "Firebase", "Redux-toolkit", "MongoDB", "Node.js", "Express", "JWT"],
+    },
+    {
+        title: "Netflix-Clone",
+        image: project2,
+        description:
+        "A front-end Netflix clone built with ReactJs to enhance skills in front-end development. Features include Firebase authentication, Redux-toolkit for state management, and TailwindCSS for styling. Implements user data and movie data storage using a Redux store.",
+        technologies: ["React", "TailwindCSS", "Firebase", "Redux-toolkit", "MongoDB"],
+    },
+]
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+    address: "Phagwara, Punjab, India",
+    phoneNo: "+91 7070694389",
+    email: "aditya13raja@gmail.com"
 };
